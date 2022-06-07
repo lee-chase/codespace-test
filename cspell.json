@@ -1,0 +1,43 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": [
+    "app",
+    "html"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "app",
+      "path": "./cspell.app.txt"
+    },
+    {
+      "name": "apps",
+      "path": "./cspell.apps.txt"
+    },
+    {
+      "name": "html",
+      "path": "./cspell.html.txt"
+    },
+  ],
+  "enabledLanguageIds": [
+    "css",
+    "git-commit",
+    "html",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "markdown",
+    "scss",
+    "text",
+    "yaml",
+    "yml",
+    "mdx"
+  ],
+  "ignorePaths": [
+    ".yarn",
+    "package.json",
+    "*.snap",
+    "*.log",
+    "CHANGELOG.md"
+  ],
+}

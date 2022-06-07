@@ -1,0 +1,20 @@
+{
+  "extends": ["stylelint-config-carbon"],
+  "plugins": ["stylelint-plugin-carbon-tokens"],
+  "rules": {
+    "carbon/layout-token-use": [true, { "severity": "error", "acceptUndefinedVariables": false }],
+    "carbon/motion-token-use": [true, { "severity": "error", "acceptUndefinedVariables": false }],
+    "carbon/theme-token-use": [true, { "severity": "error", "acceptUndefinedVariables": false }],
+    "carbon/type-token-use": [
+      true,
+      {
+        "severity": "error",
+        "acceptCarbonTypeScaleFunction": true,
+        "acceptCarbonFontWeightFunction": true
+      }
+    ],
+    "selector-class-pattern": ["^[a-z]([-]?[a-z0-9]+)*(__[a-z0-9]([-]?[a-z0-9]+)*)?(--[a-z0-9]([-]?[a-z0-9]+)*)?$", {
+      "message": "should match Harry Roberts'' style BEM block[__element][--modifier]"
+    }]
+ }
+}
